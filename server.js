@@ -4,7 +4,7 @@ var mongoose = require( "mongoose" )
 var uuidv4 = require( "uuid/v4" )
 var port = process.env.PORT || 3000
 var login = process.env.LOGIN
-mongoose.connect('mongodb://' + login + '@ds163630.mlab.com:63630/tokenchain')
+mongoose.connect('mongodb+srv://' + login + '@tokenchain.wei6e.mongodb.net/tokenchain?retryWrites=true&w=majority')
 var User = require('./user-model')
 
 server = http.createServer( function( req, res ) {

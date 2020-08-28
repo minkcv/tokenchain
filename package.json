@@ -10,9 +10,10 @@
   "author": "Will Smith",
   "license": "ISC",
   "dependencies": {
-    "cookies": "^0.7.1",
+    "cookies": "^0.7.3",
     "http": "0.0.0",
-    "mongoose": "^5.2.7",
+    "mongoose": "^5.10.2",
+    "package.json": "^2.0.1",
     "uuid": "^3.3.2"
   }
 }
