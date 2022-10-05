@@ -27,8 +27,4 @@ The word "site" is used to refer to a website but this model could use a server 
 ### Working example
 The code in this repository contains a working (but very basic) example of this model using http, cookies and requires a database to be set up. 
 
-A live version is available at 
-
-[http://tokenchain.herokuapp.com/](http://tokenchain.herokuapp.com/)
-
 If you have a cookie with the name `token` and a value that is a valid token then you can see the data value on the account and increment/decrement links. If you do not have a valid value or no value, then you will only see the message "Credentials not valid". In the interest of reducing load on my freely hosted projects I do not offer a automated method of signing up for an account, instead, I will let people that are interested contact me asking for a token.
